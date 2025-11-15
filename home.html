@@ -26,27 +26,31 @@
    <!-- Inline Performance Optimization -->
    <style>
       /* Hardware acceleration for smooth scrolling */
-      #smooth-wrapper, #smooth-content { 
-         will-change: transform; 
-         transform: translateZ(0); 
-         backface-visibility: hidden; 
+      #smooth-wrapper, #smooth-content {
+         will-change: transform;
+         transform: translateZ(0);
+         backface-visibility: hidden;
       }
-      .tp-hero-area { 
-         will-change: auto; 
-         contain: layout style; 
+      .tp-hero-area {
+         will-change: auto;
+         contain: layout style;
       }
-      .tp-hero-banner img { 
-         will-change: transform; 
-         transform: translateZ(0); 
-         backface-visibility: hidden; 
+      .tp-hero-banner img {
+         will-change: transform;
+         transform: translate3d(0, 0, 0);
+         backface-visibility: hidden;
+         -webkit-backface-visibility: hidden;
+         -moz-backface-visibility: hidden;
+         -webkit-transform: translate3d(0, 0, 0);
+         -moz-transform: translate3d(0, 0, 0);
       }
-      .tp-border-line { 
-         will-change: auto; 
-         transform: translateZ(0); 
+      .tp-border-line {
+         will-change: auto;
+         transform: translateZ(0);
       }
-      .tp-hero-gradient-circle { 
-         opacity: 0.5; 
-         pointer-events: none; 
+      .tp-hero-gradient-circle {
+         opacity: 0.5;
+         pointer-events: none;
       }
    </style>
 
@@ -314,7 +318,7 @@
                      <img src="assets/img/home-01/shape/hero-shape-1.png" alt="">
                   </div>
                   <div class="tp-hero-banner tp-hero-banner-height">
-                     <img src="assets/img/home-01/hero/hore-1.jpg" alt="">
+                     <img src="assets/img/home-01/hero/hore-1.jpg" alt="" data-speed="1.1">
                   </div>
                </div>
             </div>
