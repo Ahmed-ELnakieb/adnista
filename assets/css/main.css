@@ -9591,3 +9591,11 @@ input[type=color] {
   object-fit: cover;
   border-radius: 50%;
 }
+
+/* Testimonial author image sizing - Adnista Custom */
+.tp-testimonial-author-img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+}
