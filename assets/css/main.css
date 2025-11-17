@@ -9576,3 +9576,10 @@ input[type=color] {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+/* About section image sizing - Adnista Custom */
+.tp-about-4-thumb img {
+  width: 475px;
+  height: 550px;
+  object-fit: cover;
+}
