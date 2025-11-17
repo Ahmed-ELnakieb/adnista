@@ -52,6 +52,26 @@
          opacity: 0.5;
          pointer-events: none;
       }
+      
+      /* Mega Menu Two Column Layout */
+      .tp-mega-menu {
+         min-width: 500px;
+         padding: 20px;
+      }
+      .tp-mega-menu .row {
+         display: flex;
+         flex-wrap: wrap;
+         margin: 0;
+      }
+      .tp-mega-menu .col-lg-6 {
+         flex: 0 0 50%;
+         max-width: 50%;
+         padding: 0 10px;
+      }
+      .tp-mega-menu li {
+         display: block;
+         width: 100%;
+      }
    </style>
 
 </head>
@@ -209,7 +229,35 @@
                         <ul>
                            <li><a href="home.html">Home</a></li>
                            <li><a href="about.html">About</a></li>
-                           <li><a href="service.html">Services</a></li>
+                           <li class="has-dropdown has-mega-menu">
+                              <a href="service.html">Services</a>
+                              <ul class="tp-submenu submenu tp-mega-menu">
+                                 <div class="row">
+                                    <div class="col-lg-6">
+                                       <li><a href="service-details.html">Search Engine Optimization</a></li>
+                                       <li><a href="service-details.html">Social Media Advertising</a></li>
+                                       <li><a href="service-details.html">Google Ads Management</a></li>
+                                       <li><a href="service-details.html">Conversion Rate Optimization</a></li>
+                                       <li><a href="service-details.html">Display Advertising</a></li>
+                                       <li><a href="service-details.html">Content Writing</a></li>
+                                       <li><a href="service-details.html">Metaverse Marketing</a></li>
+                                       <li><a href="service-details.html">Google Analytics</a></li>
+                                       <li><a href="service-details.html">TikTok Advertising</a></li>
+                                    </div>
+                                    <div class="col-lg-6">
+                                       <li><a href="service-details.html">Website Development</a></li>
+                                       <li><a href="service-details.html">Pay-Per-Click Management</a></li>
+                                       <li><a href="service-details.html">Social Media Management</a></li>
+                                       <li><a href="service-details.html">Website Design & Development</a></li>
+                                       <li><a href="service-details.html">Arabic Marketing</a></li>
+                                       <li><a href="service-details.html">Reputation Management</a></li>
+                                       <li><a href="service-details.html">LinkedIn Marketing</a></li>
+                                       <li><a href="service-details.html">Facebook Marketing</a></li>
+                                       <li><a href="service-details.html">Instagram Marketing</a></li>
+                                    </div>
+                                 </div>
+                              </ul>
+                           </li>
                            <li><a href="blog.html">Blog</a></li>
                            <li><a href="contact.html">Contact Us</a></li>
                         </ul>
