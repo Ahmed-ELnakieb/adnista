@@ -9599,3 +9599,17 @@ input[type=color] {
   object-fit: cover;
   border-radius: 50%;
 }
+
+/* Project thumbnail image sizing - Adnista Custom */
+.tp-project-thumb.fix img {
+  width: 475px;
+  height: 550px;
+  object-fit: cover;
+}
+
+/* Testimonial big image sizing - Adnista Custom */
+.tp-testimonial-thumb img {
+  width: 960px;
+  height: 1135px;
+  object-fit: cover;
+}
