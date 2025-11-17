@@ -9583,3 +9583,11 @@ input[type=color] {
   height: 550px;
   object-fit: cover;
 }
+
+/* Blog author image sizing - Adnista Custom */
+.tp-blog-author-img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+}
