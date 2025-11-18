@@ -9,6 +9,29 @@
    <meta name="description" content="Learn about Adnista, a leading digital marketing agency in Ras Al Khaimah, UAE. Discover our mission, values, and commitment to helping businesses grow online.">
    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+   <!-- Inline Performance Optimization -->
+   <style>
+      /* Mega Menu Two Column Layout */
+      .tp-mega-menu {
+         min-width: 500px;
+         padding: 20px;
+      }
+      .tp-mega-menu .row {
+         display: flex;
+         flex-wrap: wrap;
+         margin: 0;
+      }
+      .tp-mega-menu .col-lg-6 {
+         flex: 0 0 50%;
+         max-width: 50%;
+         padding: 0 10px;
+      }
+      .tp-mega-menu li {
+         display: block;
+         width: 100%;
+      }
+   </style>
+
    <!-- Place favicon.ico in the root directory -->
    <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/favicon.png">
 
@@ -160,46 +183,74 @@
      <header>
 
       <!-- header area start -->
-      <div id="header-sticky" class="tp-header-area tp-header-inner-style tp-header-mob-space tp-header-border header-transparent">
-         <div class="container">
+      <div id="header-sticky" class="tp-header-area tp-header-mob-space header-transparent">
+         <div class="container container-1680">
             <div class="row align-items-center">
                <div class="col-xl-2 col-lg-4 col-md-4 col-6">
                   <div class="tp-header-logo">
-                     <a href="index.html">
-                        <img src="assets/img/logo/logo-white.png" alt="">
+                     <a href="home.html">
+                        <img src="assets/img/logo/logo.png" alt="">
                      </a>
                   </div>
                </div>
-               <div class="col-xl-5 d-none d-xl-block">
-                  <div class="tp-header-menu tp-header-menu-style-2 header-main-menu">
+               <div class="col-xl-6 d-none d-xl-block">
+                  <div class="tp-header-menu header-main-menu">
                      <nav class="tp-mobile-menu-active">
                         <ul>
                            <li><a href="home.html">Home</a></li>
                            <li><a href="about.html">About</a></li>
-                           <li><a href="service.html">Services</a></li>
+                           <li class="has-dropdown has-mega-menu">
+                              <a href="service.html">Services</a>
+                              <ul class="tp-submenu submenu tp-mega-menu">
+                                 <div class="row">
+                                    <div class="col-lg-6">
+                                       <li><a href="service-details.html">Search Engine Optimization</a></li>
+                                       <li><a href="service-details.html">Social Media Advertising</a></li>
+                                       <li><a href="service-details.html">Google Ads Management</a></li>
+                                       <li><a href="service-details.html">Conversion Rate Optimization</a></li>
+                                       <li><a href="service-details.html">Display Advertising</a></li>
+                                       <li><a href="service-details.html">Content Writing</a></li>
+                                       <li><a href="service-details.html">Metaverse Marketing</a></li>
+                                       <li><a href="service-details.html">Google Analytics</a></li>
+                                       <li><a href="service-details.html">TikTok Advertising</a></li>
+                                    </div>
+                                    <div class="col-lg-6">
+                                       <li><a href="service-details.html">Website Development</a></li>
+                                       <li><a href="service-details.html">Pay-Per-Click Management</a></li>
+                                       <li><a href="service-details.html">Social Media Management</a></li>
+                                       <li><a href="service-details.html">Website Design & Development</a></li>
+                                       <li><a href="service-details.html">Arabic Marketing</a></li>
+                                       <li><a href="service-details.html">Reputation Management</a></li>
+                                       <li><a href="service-details.html">LinkedIn Marketing</a></li>
+                                       <li><a href="service-details.html">Facebook Marketing</a></li>
+                                       <li><a href="service-details.html">Instagram Marketing</a></li>
+                                    </div>
+                                 </div>
+                              </ul>
+                           </li>
                            <li><a href="blog.html">Blog</a></li>
                            <li><a href="contact.html">Contact Us</a></li>
                         </ul>
                      </nav>
                   </div>
                </div>
-               <div class="col-xl-5 col-lg-8 col-md-8 col-6">
+               <div class="col-xl-4 col-lg-8 col-md-8 col-6">
                   <div class="tp-header-right text-end">
                      <div class="tp-header-action d-inline-flex align-items-center">
                         <div id="tp-header-search" class="tp-header-search p-relative d-none d-md-block">
                            <form action="#">
                               <div class="tp-header-search-input">
-                                 <input type="text" placeholder="Search...">
+                                 <input focused type="text" placeholder="Search...">
+                              </div>
+                              <div class="tp-header-search-icon">
+                                 <span>
+                                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M9.88888 18.7778C14.7981 18.7778 18.7778 14.7981 18.7778 9.88888C18.7778 4.97969 14.7981 1 9.88888 1C4.97969 1 1 4.97969 1 9.88888C1 14.7981 4.97969 18.7778 9.88888 18.7778Z" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                       <path d="M21 21L16.1666 16.1666" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                 </span>
                               </div>
                            </form>
-                           <div class="tp-header-search-icon">
-                              <span>
-                                 <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M9.88888 18.7778C14.7981 18.7778 18.7778 14.7981 18.7778 9.88888C18.7778 4.97969 14.7981 1 9.88888 1C4.97969 1 1 4.97969 1 9.88888C1 14.7981 4.97969 18.7778 9.88888 18.7778Z" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                    <path d="M21 21L16.1666 16.1666" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                 </svg>
-                              </span>
-                           </div>
                         </div>
                         <div class="tp-header-btn d-none d-sm-block">
                            <a class="tp-btn ml-30" href="contact.html">Get Free Strategy Session</a>
@@ -272,11 +323,11 @@
                            </div>
                            <div class="tp-feature-title-box mb-40">
                               <span class="tp-section-2-subtitle mb-10">Who We Are</span>
-                              <h4 class="tp-section-title fs-44 mb-0 tp-split-text tp-split-right">Your Trusted Digital Marketing <br> Partner in UAE</h4>
+                              <h4 class="tp-section-title fs-44 mb-0 tp-split-text tp-split-right">Adnista - The Marketing Agency <br> That Makes a Difference</h4>
                            </div>
                            <div class="tp-feature-btn">
-                              <a class="tp-btn-border-radius-6 grey-border" href="service-3.html">
-                                 See all stories
+                              <a class="tp-btn-border-radius-6 grey-border" href="service.html">
+                                 Explore Our Services
                                  <span>
                                     <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                        <path d="M1 7H13" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -301,7 +352,7 @@
                                        </span>
                                     </div>
                                     <div class="tp-service-3-content">
-                                       <h4 class="tp-service-3-title sm"><a href="service.html">SEO & Search <br> Optimization</a></h4>
+                                       <h4 class="tp-service-3-title sm"><a href="service-details.html">SEO & Search <br> Optimization</a></h4>
                                     </div>
                                  </div>
                               </div>
@@ -320,7 +371,7 @@
                                        </span>
                                     </div>
                                     <div class="tp-service-3-content">
-                                       <h4 class="tp-service-3-title sm"><a href="service.html">Social Media <br> Marketing</a></h4>
+                                       <h4 class="tp-service-3-title sm"><a href="service-details.html">Social Media <br> Marketing</a></h4>
                                     </div>
                                  </div>
                               </div>
@@ -337,7 +388,7 @@
                                        </span>
                                     </div>
                                     <div class="tp-service-3-content">
-                                       <h4 class="tp-service-3-title sm"><a href="service.html">Website Design & <br> Development</a></h4>
+                                       <h4 class="tp-service-3-title sm"><a href="service-details.html">Website Design & <br> Development</a></h4>
                                     </div>
                                  </div>
                               </div>
@@ -357,7 +408,7 @@
                                        </span>
                                     </div>
                                     <div class="tp-service-3-content">
-                                       <h4 class="tp-service-3-title sm"><a href="service-3.html">Visual Facility <br> Design</a></h4>
+                                       <h4 class="tp-service-3-title sm"><a href="service-details.html">Content <br> Marketing</a></h4>
                                     </div>
                                  </div>
                               </div>
@@ -374,7 +425,7 @@
                                        </span>
                                     </div>
                                     <div class="tp-service-3-content">
-                                       <h4 class="tp-service-3-title sm"><a href="service-3.html">Highly Adjustable <br> Archives</a></h4>
+                                       <h4 class="tp-service-3-title sm"><a href="service-details.html">PPC <br> Management</a></h4>
                                     </div>
                                  </div>
                               </div>
@@ -393,7 +444,7 @@
                                        </span>
                                     </div>
                                     <div class="tp-service-3-content">
-                                       <h4 class="tp-service-3-title sm"><a href="service-3.html">First Class <br> 24/7 Support</a></h4>
+                                       <h4 class="tp-service-3-title sm"><a href="service-details.html">Reputation <br> Management</a></h4>
                                     </div>
                                  </div>
                               </div>
@@ -405,315 +456,157 @@
             </div>
             <!-- feature area end -->
 
-            <!-- about area start -->
-            <div class="tp-about-4-area tp-about-inner-style pt-120 pb-120">
+            <!-- vision area start -->
+            <div class="tp-vission-area tp-vission-ptb tp-vission-overlay fix">
+               <div class="tp-vission-img d-none d-lg-block">
+                  <img data-speed=".8" src="assets/img/inner-service/vission-bg.jpg" alt="">
+               </div>
                <div class="container">
                   <div class="row">
-                     <div class="col-xl-12">
-                        <div class="tp-about-4-tab-wrap tp-marker-tab-2 p-relative">
-                           <ul class="nav nav-tab" id="myTab" role="tablist">
-                              <li class="nav-items" role="presentation">
-                                 <button class="nav-links active" id="security-tab" data-bs-toggle="tab" data-bs-target="#security-tab-pane" type="button" role="tab" aria-controls="security-tab-pane" aria-selected="true">IT Security</button>
-                              </li>
-                              <li class="nav-items" role="presentation">
-                                 <button class="nav-links" id="solution-tab" data-bs-toggle="tab" data-bs-target="#solution-tab-pane" type="button" role="tab" aria-controls="solution-tab-pane" aria-selected="false">Solutions</button>
-                              </li>
-                              <li class="nav-items" role="presentation">
-                                 <button class="nav-links" id="seo-tab" data-bs-toggle="tab" data-bs-target="#seo-tab-pane" type="button" role="tab" aria-controls="seo-tab-pane" aria-selected="false">SEO Management</button>
-                              </li>
-                              <li class="nav-items" role="presentation">
-                                 <button class="nav-links" id="mobile-tab" data-bs-toggle="tab" data-bs-target="#mobile-tab-pane" type="button" role="tab" aria-controls="mobile-tab-pane" aria-selected="false">Mobile Apps</button>
-                              </li>
-                           </ul>
-                           <span class="d-none d-md-block" id="lineMarker-2"></span>
+                     <div class="offset-xl-6 col-xl-6 offset-lg-4 col-lg-8">
+                        <div class="tp-vission-item z-index-1 d-flex align-items-start">
+                           <div class="tp-vission-content">
+                              <div class="tp-vission-category">
+                                 <a href="#">Our vision</a>
+                              </div>
+                              <div class="tp-vission-text">
+                                 <p>When you design products and services in close partnership with clients, you are
+                                    creating a solution that is tailored to their specific needs.</p>
+                              </div>
+                              <div class="tp-vission-link">
+                                 <a href="#">
+                                    Meet the Team
+                                    <span>
+                                       <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                          xmlns="http://www.w3.org/2000/svg">
+                                          <path d="M1 6H11" stroke="currentcolor" stroke-width="1.5"
+                                             stroke-linecap="round" stroke-linejoin="round" />
+                                          <path d="M6 1L11 6L6 11" stroke="currentcolor" stroke-width="1.5"
+                                             stroke-linecap="round" stroke-linejoin="round" />
+                                       </svg>
+                                    </span>
+                                 </a>
+                              </div>
+                           </div>
+                           <div class="tp-vission-number-wrap">
+                              <div class="tp-vission-number text-center">
+                                 <span>9</span>
+                                 <p>Years of Experience</p>
+                              </div>
+                           </div>
                         </div>
-                        <div class="tp-about-4-tab-content-wrap">
-                           <div class="tab-content" id="myTabContent">
-                              <div class="tab-pane fade show active" id="security-tab-pane" role="tabpanel" aria-labelledby="security-tab" tabindex="0">
-                                 <div class="row">
-                                    <div class="col-xl-5 col-lg-5">
-                                       <div class="tp-about-4-title-box mt-30 mb-40">
-                                          <h4 class="tp-section-title fs-44 mb-20 tp-split-text tp-split-right">IT solutions for your business.</h4>
-                                          <p>We work closely with you to understand your business goals and objectives, and then we develop customized IT solutions that help you achieve them.</p>
-                                       </div>
-                                       <div class="tp-about-4-list mb-50">
-                                          <ul>
-                                             <li>
-                                                <span>
-                                                   <svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                      <path d="M11 1L4.125 7.875L1 4.75" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                                   </svg>
-                                                </span>
-                                                Dall-E, GPT or Ada
-                                             </li>
-                                             <li>
-                                                <span>
-                                                   <svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                      <path d="M11 1L4.125 7.875L1 4.75" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                                   </svg>
-                                                </span>
-                                                Unlimited Generation
-                                             </li>
-                                             <li>
-                                                <span>
-                                                   <svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                      <path d="M11 1L4.125 7.875L1 4.75" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                                   </svg>
-                                                </span>
-                                                Multilingual
-                                             </li>
-                                          </ul>
-                                       </div>
-                                       <div class="tp-about-4-btn">
-                                          <a class="tp-btn-border-radius-6 grey-border" href="service-3.html">
-                                             Why We're Different
-                                             <span>
-                                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                   <path d="M1 7H13" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                   <path d="M7 1L13 7L7 13" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-                                             </span>
-                                          </a>
-                                       </div>
-                                    </div>
-                                    <div class="col-xl-7 col-lg-7">
-                                       <div class="tp-about-4-thumb-wrap">
-                                          <div class="tp-about-4-thumb text-end">
-                                             <img src="assets/img/home-04/about/about-1.jpg" alt="">
-                                          </div>
-                                          <div class="tp-about-4-funfact-wrap">
-                                             <div class="row gx-10">
-                                                <div class="col-xl-6 col-lg-6 col-md-6">
-                                                   <div class="tp-about-4-funfact">
-                                                      <h4><span data-purecounter-duration="1" data-purecounter-end="76" class="purecounter">76</span>+</h4>
-                                                      <span>Wireframe & Prototype <br> UX Design.</span>
-                                                   </div>
-                                                </div>
-                                                <div class="col-xl-6 col-lg-6 col-md-6">
-                                                   <div class="tp-about-4-funfact yellow-box">
-                                                      <h4><span data-purecounter-duration="1" data-purecounter-end="33" class="purecounter">33</span>+</h4>
-                                                      <span>Website and <br> Mobile App Design</span>
-                                                   </div>
-                                                </div>
-                                             </div>
-                                          </div>
-                                       </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- vision area end -->
+
+            <div class="pr-faq-area pt-95">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-xl-6 col-lg-6">
+                        <div class="pr-faq-title-box mb-55">
+                           <span class="tp-section-2-subtitle mb-10">Have a question?</span>
+                           <h4 class="tp-section-title fs-44 mb-0 tp-split-text tp-split-right">We are the ones who make the impossible possible.</h4>
+                        </div>
+                        <div class="pr-faq-btn">
+                           <a class="tp-btn-circle solid-black tp-hover-btn-wrapper tp-hover-btn-item tp-hover-btn" href="portfolio-details-1.html">
+                              <span class="tp-btn-circle-text">All View <br> Question?</span>
+                              <span class="tp-btn-circle-icon">
+                                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10.625 9.75L15 5.375L10.625 1" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M1 15V8.875C1 7.94674 1.36875 7.0565 2.02513 6.40013C2.6815 5.74375 3.57174 5.375 4.5 5.375H15" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                 </svg>
+                              </span>
+                              <i class="tp-btn-circle-dot"></i>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="col-xl-6 col-lg-6">
+                        <div class="tp-faq-wrapper">
+                           <div class="accordion" id="accordionExample">
+                              <div class="accordion-items">
+                                 <h2 class="accordion-header">
+                                    <button class="accordion-buttons collapsed" type="button" data-bs-toggle="collapse"
+                                       data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                       What we do?
+                                       <span class="accordion-icon"></span>
+                                    </button>
+                                 </h2>
+                                 <div id="collapseOne" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                       <p>
+                                          Our tools are easy to use and affordable, so you can start <br> improving your website's SEO today.
+                                       </p>
                                     </div>
                                  </div>
                               </div>
-                              <div class="tab-pane fade" id="solution-tab-pane" role="tabpanel" aria-labelledby="solution-tab" tabindex="0">
-                                 <div class="row">
-                                    <div class="col-xl-5 col-lg-5">
-                                       <div class="tp-about-4-title-box mt-30 mb-40">
-                                          <h4 class="tp-section-title fs-44 mb-20 tp-split-text tp-split-right">IT solutions for your business.</h4>
-                                          <p>We work closely with you to understand your business goals and objectives, and then we develop customized IT solutions that help you achieve them.</p>
-                                       </div>
-                                       <div class="tp-about-4-list mb-50">
-                                          <ul>
-                                             <li>
-                                                <span>
-                                                   <svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                      <path d="M11 1L4.125 7.875L1 4.75" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                                   </svg>
-                                                </span>
-                                                Dall-E, GPT or Ada
-                                             </li>
-                                             <li>
-                                                <span>
-                                                   <svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                      <path d="M11 1L4.125 7.875L1 4.75" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                                   </svg>
-                                                </span>
-                                                Unlimited Generation
-                                             </li>
-                                             <li>
-                                                <span>
-                                                   <svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                      <path d="M11 1L4.125 7.875L1 4.75" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                                   </svg>
-                                                </span>
-                                                Multilingual
-                                             </li>
-                                          </ul>
-                                       </div>
-                                       <div class="tp-about-4-btn">
-                                          <a class="tp-btn-border-radius-6 grey-border" href="service-3.html">
-                                             Why We're Different
-                                             <span>
-                                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                   <path d="M1 7H13" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                   <path d="M7 1L13 7L7 13" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-                                             </span>
-                                          </a>
-                                       </div>
-                                    </div>
-                                    <div class="col-xl-7 col-lg-7">
-                                       <div class="tp-about-4-thumb-wrap">
-                                          <div class="tp-about-4-thumb text-end">
-                                             <img src="assets/img/home-04/about/about-1.jpg" alt="">
-                                          </div>
-                                          <div class="tp-about-4-funfact-wrap">
-                                             <div class="row gx-10">
-                                                <div class="col-xl-6 col-lg-6 col-md-6">
-                                                   <div class="tp-about-4-funfact">
-                                                      <h4><span data-purecounter-duration="1" data-purecounter-end="76" class="purecounter">76</span>+</h4>
-                                                      <span>Wireframe & Prototype <br> UX Design.</span>
-                                                   </div>
-                                                </div>
-                                                <div class="col-xl-6 col-lg-6 col-md-6">
-                                                   <div class="tp-about-4-funfact yellow-box">
-                                                      <h4><span data-purecounter-duration="1" data-purecounter-end="33" class="purecounter">33</span>+</h4>
-                                                      <span>Website and <br> Mobile App Design</span>
-                                                   </div>
-                                                </div>
-                                             </div>
-                                          </div>
-                                       </div>
+                              <div class="accordion-items">
+                                 <h2 class="accordion-header">
+                                    <button class="accordion-buttons" type="button" data-bs-toggle="collapse"
+                                       data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                       How we do it?
+                                       <span class="accordion-icon"></span>
+                                    </button>
+                                 </h2>
+                                 <div id="collapseTwo" class="accordion-collapse collapse show"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                       <p>
+                                          Our tools are easy to use and affordable, so you can start <br> improving your website's SEO today.
+                                       </p>
                                     </div>
                                  </div>
                               </div>
-                              <div class="tab-pane fade" id="seo-tab-pane" role="tabpanel" aria-labelledby="seo-tab" tabindex="0">
-                                 <div class="row">
-                                    <div class="col-xl-5 col-lg-5">
-                                       <div class="tp-about-4-title-box mt-30 mb-40">
-                                          <h4 class="tp-section-title fs-44 mb-20 tp-split-text tp-split-right">IT solutions for your business.</h4>
-                                          <p>We work closely with you to understand your business goals and objectives, and then we develop customized IT solutions that help you achieve them.</p>
-                                       </div>
-                                       <div class="tp-about-4-list mb-50">
-                                          <ul>
-                                             <li>
-                                                <span>
-                                                   <svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                      <path d="M11 1L4.125 7.875L1 4.75" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                                   </svg>
-                                                </span>
-                                                Dall-E, GPT or Ada
-                                             </li>
-                                             <li>
-                                                <span>
-                                                   <svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                      <path d="M11 1L4.125 7.875L1 4.75" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                                   </svg>
-                                                </span>
-                                                Unlimited Generation
-                                             </li>
-                                             <li>
-                                                <span>
-                                                   <svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                      <path d="M11 1L4.125 7.875L1 4.75" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                                   </svg>
-                                                </span>
-                                                Multilingual
-                                             </li>
-                                          </ul>
-                                       </div>
-                                       <div class="tp-about-4-btn">
-                                          <a class="tp-btn-border-radius-6 grey-border" href="service-3.html">
-                                             Why We're Different
-                                             <span>
-                                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                   <path d="M1 7H13" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                   <path d="M7 1L13 7L7 13" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-                                             </span>
-                                          </a>
-                                       </div>
-                                    </div>
-                                    <div class="col-xl-7 col-lg-7">
-                                       <div class="tp-about-4-thumb-wrap">
-                                          <div class="tp-about-4-thumb text-end">
-                                             <img src="assets/img/home-04/about/about-1.jpg" alt="">
-                                          </div>
-                                          <div class="tp-about-4-funfact-wrap">
-                                             <div class="row gx-10">
-                                                <div class="col-xl-6 col-lg-6">
-                                                   <div class="tp-about-4-funfact">
-                                                      <h4><span data-purecounter-duration="1" data-purecounter-end="76" class="purecounter">76</span>+</h4>
-                                                      <span>Wireframe & Prototype <br> UX Design.</span>
-                                                   </div>
-                                                </div>
-                                                <div class="col-xl-6 col-lg-6">
-                                                   <div class="tp-about-4-funfact yellow-box">
-                                                      <h4><span data-purecounter-duration="1" data-purecounter-end="33" class="purecounter">33</span>+</h4>
-                                                      <span>Website and <br> Mobile App Design</span>
-                                                   </div>
-                                                </div>
-                                             </div>
-                                          </div>
-                                       </div>
+                              <div class="accordion-items">
+                                 <h2 class="accordion-header">
+                                    <button class="accordion-buttons collapsed" type="button" data-bs-toggle="collapse"
+                                       data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                       How  can i download the products?
+                                       <span class="accordion-icon"></span>
+                                    </button>
+                                 </h2>
+                                 <div id="collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                       <p>
+                                          Our tools are easy to use and affordable, so you can start <br> improving your website's SEO today.
+                                       </p>
                                     </div>
                                  </div>
                               </div>
-                              <div class="tab-pane fade" id="mobile-tab-pane" role="tabpanel" aria-labelledby="mobile-tab" tabindex="0">
-                                 <div class="row">
-                                    <div class="col-xl-5 col-lg-5">
-                                       <div class="tp-about-4-title-box mt-30 mb-40">
-                                          <h4 class="tp-section-title fs-44 mb-20 tp-split-text tp-split-right">IT solutions for your business.</h4>
-                                          <p>We work closely with you to understand your business goals and objectives, and then we develop customized IT solutions that help you achieve them.</p>
-                                       </div>
-                                       <div class="tp-about-4-list mb-50">
-                                          <ul>
-                                             <li>
-                                                <span>
-                                                   <svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                      <path d="M11 1L4.125 7.875L1 4.75" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                                   </svg>
-                                                </span>
-                                                Dall-E, GPT or Ada
-                                             </li>
-                                             <li>
-                                                <span>
-                                                   <svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                      <path d="M11 1L4.125 7.875L1 4.75" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                                   </svg>
-                                                </span>
-                                                Unlimited Generation
-                                             </li>
-                                             <li>
-                                                <span>
-                                                   <svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                      <path d="M11 1L4.125 7.875L1 4.75" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                                   </svg>
-                                                </span>
-                                                Multilingual
-                                             </li>
-                                          </ul>
-                                       </div>
-                                       <div class="tp-about-4-btn">
-                                          <a class="tp-btn-border-radius-6 grey-border" href="service-3.html">
-                                             Why We're Different
-                                             <span>
-                                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                   <path d="M1 7H13" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                   <path d="M7 1L13 7L7 13" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-                                             </span>
-                                          </a>
-                                       </div>
+                              <div class="accordion-items">
+                                 <h2 class="accordion-header">
+                                    <button class="accordion-buttons collapsed" type="button" data-bs-toggle="collapse"
+                                       data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                       Free Shipping  & Return Order
+                                       <span class="accordion-icon"></span>
+                                    </button>
+                                 </h2>
+                                 <div id="collapseFour" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                       <p>
+                                          Our tools are easy to use and affordable, so you can start <br> improving your website's SEO today.
+                                       </p>
                                     </div>
-                                    <div class="col-xl-7 col-lg-7">
-                                       <div class="tp-about-4-thumb-wrap">
-                                          <div class="tp-about-4-thumb text-end">
-                                             <img src="assets/img/home-04/about/about-1.jpg" alt="">
-                                          </div>
-                                          <div class="tp-about-4-funfact-wrap">
-                                             <div class="row gx-10">
-                                                <div class="col-xl-6 col-lg-6">
-                                                   <div class="tp-about-4-funfact">
-                                                      <h4><span data-purecounter-duration="1" data-purecounter-end="76" class="purecounter">76</span>+</h4>
-                                                      <span>Wireframe & Prototype <br> UX Design.</span>
-                                                   </div>
-                                                </div>
-                                                <div class="col-xl-6 col-lg-6">
-                                                   <div class="tp-about-4-funfact yellow-box">
-                                                      <h4><span data-purecounter-duration="1" data-purecounter-end="33" class="purecounter">33</span>+</h4>
-                                                      <span>Website and <br> Mobile App Design</span>
-                                                   </div>
-                                                </div>
-                                             </div>
-                                          </div>
-                                       </div>
+                                 </div>
+                              </div>
+                              <div class="accordion-items">
+                                 <h2 class="accordion-header">
+                                    <button class="accordion-buttons collapsed" type="button" data-bs-toggle="collapse"
+                                       data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                       Payment options
+                                       <span class="accordion-icon"></span>
+                                    </button>
+                                 </h2>
+                                 <div id="collapseFive" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                       <p>
+                                          Our tools are easy to use and affordable, so you can start <br> improving your website's SEO today.
+                                       </p>
                                     </div>
                                  </div>
                               </div>
@@ -723,7 +616,7 @@
                   </div>
                </div>
             </div>
-            <!-- about area end -->
+            <!-- tp-faq-area-end -->
 
             <!-- text slider area start -->
             <div class="tp-text-slider-3-area tp-text-inner-style p-relative pt-80 pb-70">
@@ -1012,204 +905,40 @@
             </div>
             <!-- step area end -->
 
-            <!-- team area start -->
-            <div class="tp-team-4-area pt-120 pb-100 p-relative">
-               <div class="container">
-                  <div class="tp-team-4-title-wrap mb-15">
-                     <div class="row align-items-end">
-                        <div class="col-xl-7 col-lg-7 col-md-7">
-                           <div class="tp-team-4-title-box mb-20">
-                              <span class="tp-section-2-subtitle mb-10">Our Advisor.</span>
-                              <h4 class="tp-section-title fs-44 mb-0 tp-split-text tp-split-right">Our team of Tryesy</h4>
+             <!-- tp-cta-start -->
+            <div class="tp-cta-inner-area">
+               <div class="tp-cta-inner-wrap p-relative">
+                  <div class="tp-cta-inner-img" data-bg-color="#87113c">  
+                     <img src="assets/img/inner-service/cta/cta.png" alt="">
+                  </div>
+                  <div class="container">
+                     <div class="row align-items-center">
+                        <div class="col-xl-9 col-lg-9 col-md-8">
+                           <div class="tp-cta-inner-title-box">
+                              <h4 class="tp-cta-inner-title tp-split-text tp-split-right">What kind of support do <br> you need to achieve your goals</h4>
                            </div>
                         </div>
-                        <div class="col-lg-5 col-lg-5 col-md-5">
-                           <div class="tp-team-4-btn-box mb-20 text-start text-md-end">
-                              <a class="tp-btn-border-radius-6 grey-border" href="team.html">
-                                 See all Team
-                                 <span>
-                                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                       <path d="M1 7H13" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                       <path d="M7 1L13 7L7 13" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <div class="col-xl-3 col-lg-3 col-md-4">
+                           <div class="tp-cta-inner-btn-box d-flex justify-content-md-end">
+                              <a class="tp-btn-circle white tp-hover-btn-wrapper tp-hover-btn-item tp-hover-btn" href="portfolio-details-1.html">
+                                 <span class="tp-btn-circle-text">Let's Start <br> Taking Action</span>
+                                 <span class="tp-btn-circle-icon">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M10.625 9.75L15 5.375L10.625 1" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                       <path d="M1 15V8.875C1 7.94674 1.36875 7.0565 2.02513 6.40013C2.6815 5.74375 3.57174 5.375 4.5 5.375H15" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                     </svg>
                                  </span>
+                                 <i class="tp-btn-circle-dot"></i>
                               </a>
                            </div>
                         </div>
                      </div>
                   </div>
-                  <div class="row">
-                     <div class="col-xl-3 col-lg-4 col-sm-6">
-                        <div class="tp-team-4-item mb-30">
-                           <div class="tp-team-4-thumb p-relative">
-                              <img src="assets/img/home-04/team/team-1.jpg" alt="">
-                              <div class="tp-team-4-hover-box d-flex justify-content-between align-items-center">
-                                 <div class="tp-team-4-social">
-                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                                 </div>
-                                 <div class="tp-team-4-btn">
-                                    <a href="team-details.html">
-                                       Details
-                                       <span>
-                                          <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
-                                             <path d="M1.00195 9.00098L9.00195 1.00098" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                             <path d="M1.00195 1.00098H9.00195V9.00098" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                          </svg>
-                                       </span>
-                                    </a>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="tp-team-4-content">
-                              <span>Owner & Founder</span>
-                              <h4 class="tp-team-4-title"><a href="team-details.html">James Warren</a></h4>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-xl-3 col-lg-4 col-sm-6">
-                        <div class="tp-team-4-item mb-30">
-                           <div class="tp-team-4-thumb p-relative">
-                              <img src="assets/img/home-04/team/team-2.jpg" alt="">
-                              <div class="tp-team-4-hover-box d-flex justify-content-between align-items-center">
-                                 <div class="tp-team-4-social">
-                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                                 </div>
-                                 <div class="tp-team-4-btn">
-                                    <a href="team-details.html">
-                                       Details
-                                       <span>
-                                          <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
-                                             <path d="M1.00195 9.00098L9.00195 1.00098" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                             <path d="M1.00195 1.00098H9.00195V9.00098" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                          </svg>
-                                       </span>
-                                    </a>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="tp-team-4-content">
-                              <span>Project Manager</span>
-                              <h4 class="tp-team-4-title"><a href="team-details.html">Kristin Watson</a></h4>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-xl-3 col-lg-4 col-sm-6">
-                        <div class="tp-team-4-item mb-30">
-                           <div class="tp-team-4-thumb p-relative">
-                              <img src="assets/img/home-04/team/team-3.jpg" alt="">
-                              <div class="tp-team-4-hover-box d-flex justify-content-between align-items-center">
-                                 <div class="tp-team-4-social">
-                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                                 </div>
-                                 <div class="tp-team-4-btn">
-                                    <a href="team.html">
-                                       Details
-                                       <span>
-                                          <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
-                                             <path d="M1.00195 9.00098L9.00195 1.00098" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                             <path d="M1.00195 1.00098H9.00195V9.00098" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                          </svg>
-                                       </span>
-                                    </a>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="tp-team-4-content">
-                              <span>Project Manager</span>
-                              <h4 class="tp-team-4-title"><a href="team-details.html">Ralph Edwards</a></h4>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-xl-3 col-lg-4 col-sm-6">
-                        <div class="tp-team-4-item mb-30">
-                           <div class="tp-team-4-thumb p-relative">
-                              <img src="assets/img/home-04/team/team-4.jpg" alt="">
-                              <div class="tp-team-4-hover-box d-flex justify-content-between align-items-center">
-                                 <div class="tp-team-4-social">
-                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                                 </div>
-                                 <div class="tp-team-4-btn">
-                                    <a href="team-details.html">
-                                       Details
-                                       <span>
-                                          <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
-                                             <path d="M1.00195 9.00098L9.00195 1.00098" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                             <path d="M1.00195 1.00098H9.00195V9.00098" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                          </svg>
-                                       </span>
-                                    </a>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="tp-team-4-content">
-                              <span>CTO of Pizza Hut</span>
-                              <h4 class="tp-team-4-title"><a href="team-details.html">Courtney Henry</a></h4>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
                </div>
             </div>
-            <!-- team area end -->
+            <!-- tp-cta-end -->
 
-            <!-- cta area start -->
-            <div class="tp-cta-5-area grey-bg-2 pt-100 pb-100">
-               <div class="container">
-                  <div class="tp-cta-5-wrap p-relative">
-                     <div class="tp-cta-5-shape-1 d-none d-lg-block">
-                        <span>
-                           <svg width="201" height="152" viewBox="0 0 201 152" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M1 1C8.06023 51.3093 29.5081 159.78 58.8175 91.1868C95.4544 5.44561 98.3166 219.211 128.657 127.01C158.996 34.809 168.385 151 201 151" stroke="#BB86FF" stroke-width="2" />
-                           </svg>
-                        </span>
-                     </div>
-                     <div class="tp-cta-5-shape-2 d-none d-lg-block">
-                        <img src="assets/img/home-04/shape/cta-5-2.png" alt="">
-                     </div>
-                     <div class="row justify-content-center">
-                        <div class="col-xl-6 col-lg-10">
-                           <div class="tp-cta-5-content text-center">
-                              <div class="tp-cta-5-icon mb-35">
-                                 <span>
-                                    <svg width="40" height="39" viewBox="0 0 40 39" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                       <path d="M9.52381 19.0479C4.26667 19.0479 0 23.2955 0 28.5717C0 33.8479 4.26667 38.0955 9.52381 38.0955C14.781 38.0955 19.0476 33.8288 19.0476 28.5717C19.0476 23.3145 14.8 19.0479 9.52381 19.0479ZM5.63808 24.686H9.52381C10.2476 24.686 10.819 25.2764 10.819 25.9812C10.819 26.6859 10.2286 27.2764 9.52381 27.2764H5.63808C4.91427 27.2764 4.34285 26.6859 4.34285 25.9812C4.34285 25.2764 4.91427 24.686 5.63808 24.686ZM13.4095 32.4574H5.61907C4.89526 32.4574 4.32379 31.8669 4.32379 31.1621C4.32379 30.4574 4.91431 29.8669 5.61907 29.8669H13.4095C14.1333 29.8669 14.7048 30.4574 14.7048 31.1621C14.7048 31.8669 14.1333 32.4574 13.4095 32.4574Z" fill="#12B177" />
-                                       <path opacity="0.4" d="M30.4762 0H11.4286C5.71431 0 1.90479 2.85714 1.90479 9.52381V15.5048C1.90479 16.8952 3.33338 17.7714 4.60957 17.219C6.70481 16.3047 9.08571 15.9619 11.5809 16.3619C16.5714 17.1809 20.6476 21.1238 21.6572 26.0762C21.9429 27.5238 21.981 28.9333 21.7905 30.2857C21.6381 31.4095 22.5524 32.4 23.6762 32.4H30.4762C36.1905 32.4 40 29.5428 40 22.8762V9.54285C40 2.85713 36.1905 0 30.4762 0Z" fill="#12B177" />
-                                       <path d="M20.9522 16.8951C19.3522 16.8951 17.7331 16.3999 16.495 15.3903L10.5331 10.6284C9.92359 10.1332 9.80932 9.23794 10.3046 8.62842C10.7998 8.01889 11.695 7.90462 12.3045 8.39986L18.2664 13.1618C19.7141 14.3237 22.1712 14.3237 23.6188 13.1618L29.5807 8.39986C30.1903 7.90462 31.1045 7.99985 31.5807 8.62842C32.0759 9.23794 31.9807 10.1522 31.3521 10.6284L25.3902 15.3903C24.1712 16.3999 22.5522 16.8951 20.9522 16.8951Z" fill="#12B177" />
-                                    </svg>
-                                 </span>
-                              </div>
-                              <h4 class="tp-section-title fs-44 mb-50 tp-split-text tp-split-right">Stay up to date and <br> never miss out.</h4>
-                              <div class="tp-cta-5-input-box">
-                                 <form action="#">
-                                    <div class="tp-cta-5-input p-relative mb-35">
-                                       <input type="text" placeholder="Enter  your email address">
-                                       <button class="tp-cta-5-btn tp-btn-subscribe" type="submit">
-                                          <span>
-                                             <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12.9999 1L6.3999 7.6" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                <path d="M13 1L8.8 13L6.4 7.6L1 5.2L13 1Z" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                             </svg>
-                                          </span>
-                                          Subscribe
-                                       </button>
-                                    </div>
-                                    <div class="tp-cta-5-remeber">
-                                       <input id="remeber" type="checkbox">
-                                       <label for="remeber"><span>I agree to the <span>Privacy Policy.</span></span></label>
-                                    </div>
-                                 </form>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <!-- cta area end -->
+            
 
          </main>
 
