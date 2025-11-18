@@ -9613,3 +9613,18 @@ input[type=color] {
   height: 1135px;
   object-fit: cover;
 }
+
+
+/* Brand Area Image Constraints */
+.tp-brand-4-item img {
+  max-width: 130px;
+  height: auto;
+  display: block;
+}
+
+
+/* Brand Area Favicon Image */
+.tp-brand-4-ratting-box img {
+  width: 18px;
+  height: auto;
+}
